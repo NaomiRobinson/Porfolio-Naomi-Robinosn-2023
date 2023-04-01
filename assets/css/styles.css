@@ -96,6 +96,11 @@ html{
   border-radius: 100%;
 }
 
+.img-perfil{
+  width: 300x;
+  height: 270px;
+}
+
 .inicio .contenido-banner h1{
   margin-top: 40px;
   font-size: 42px;
@@ -116,6 +121,11 @@ html{
   background-color: #578faf;
   color: #fff;
   padding: 50px 20px;
+}
+
+.img-sobremi{
+  width: 100px;
+  height: 100px;
 }
 
 
@@ -240,7 +250,7 @@ html{
 }
 
 .contacto{
-  background-image: url(img/contact_bg.png);
+  background-image: url(im/contact_bg.png);
   background-color: #1e2326;
   color: #fff;
   padding: 50px 0;
