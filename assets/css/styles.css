@@ -8,18 +8,17 @@
 html{
     scroll-behavior: smooth;  /*deslizar*/
 }
-nav {
-  border-bottom: 1px solid rgb(0, 0, 0);
-}
-.contenedor-header{
-  background: #12181b;
+
+.encabezado{
+  background: #4C185B;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 99;
 }
-.contenedor-header header{
+
+.encabezado header{
   max-width: 1100px;
   margin: auto;
   display: flex;
@@ -27,48 +26,37 @@ nav {
   align-items: center;
   padding: 15px 20px;
 }
-.contenedor-header header .logo a{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 40px;
-  color: #96e2ad;
+
+.encabezado header .logo a{
+  font-family: 'Inconsolata', monospace;
+  font-size: 36px;
+  color: aqua;
+ text-decoration: none; 
 }
-.contenedor-header header ul{
+
+.encabezado header ul{
   display: flex;
   list-style: none;
 }
-.contenedor-header header nav ul li a{
+
+.encabezado header nav ul li a{
   text-align: none;
-  color: #fff;
+  color: #e6e3e3;
   margin: 0 15px;
   padding: 3px;
   transition: .5s;
   text-decoration: none;
 }
-.contenedor-header header nav ul li a:hover{
-  color: #1CB698;
+
+.encabezado header nav ul li a:hover{
+  color: bisque;
 }
-.nav-responsive{
+
+.nav-barras{
   background-color: #1CB698;
-  color:#fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: none;
-}
-.crumbs ol {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.crumb {
-  display: inline-block;
-}
-
-.crumb a::after {
-  display: inline-block;
-  color: #0a0a0a;
-  content: '-';
-  font-size: 80%;
-  font-weight: bold;
-  padding: 0 3px;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;  
 }

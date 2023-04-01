@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Porfolio Naomi Robinson</title>
   <link rel="stylesheet" href="./assets/css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
   <div class="encabezado">
@@ -15,11 +16,16 @@
         <a href="#">Mi Portfolio</a>
       </div>
       <nav id="nav">
-        <ul> <a href="#Inicio"> Inicio</a> </ul>
-        <ul> <a href="#Sobremi"> Sobre mi</a> </ul>
-        <ul> <a href="#Misintereses"> Mis intereses</a> </ul>
-        <ul> <a href="#Contacto"> Contacto</a> </ul>
+        <ul>
+          <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+          <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+          <li><a href="#misintereses" onclick="seleccionar()">MIS INTERESES</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+      </ul>
       </nav>
+      <div class="nav-barras" onclick="mostrarOcultarMenu()" >
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </header>
   </div>
 </body>
