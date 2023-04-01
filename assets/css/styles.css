@@ -14,7 +14,7 @@ html{
 /*encabezado*/
 
 .encabezado{
-  background: #4C185B;
+  background: #003D5B;
   position: fixed;
   width: 100%;
   top: 0;
@@ -34,7 +34,7 @@ html{
 .encabezado header .logo a{
   font-family: 'Inconsolata', monospace;
   font-size: 36px;
-  color: aqua;
+  color: #EDAE49;
  text-decoration: none; 
 }
 
@@ -45,7 +45,7 @@ html{
 
 .encabezado header nav ul li a{
   text-align: none;
-  color: #e6e3e3;
+  color: #e6cea9;
   margin: 0 15px;
   padding: 3px;
   transition: .5s;
@@ -53,11 +53,11 @@ html{
 }
 
 .encabezado header nav ul li a:hover{
-  color: bisque;
+  color: #D1495B;
 }
 
 .nav-responsive{
-  background-color: #1CB698;
+  background-color: #06201b;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -127,7 +127,7 @@ html{
 
 .sobremi h2{
   font-size: 48px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Inconsolata', monospace;
   text-align: center;
   padding: 20px 0;
 
@@ -154,7 +154,7 @@ html{
 
 .sobremi .fila .col h3{
   font-size: 28px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Inconsolata', monospace;
   margin-bottom: 25px;
 }
 
@@ -184,7 +184,7 @@ html{
 
 .misintereses .fila .col h3{
   font-size: 28px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Inconsolata', monospace;
   margin-bottom: 25px;
 }
 
@@ -206,7 +206,7 @@ html{
 }
 
 .misintereses .fila .col .contenedor-intereses .interes:hover{
-  background-color: #1CB698;
+  background-color: #EDAE49;
 }
 .misintereses .fila .col .contenedor-intereses .interes i{
   font-size: 30px;
@@ -236,5 +236,33 @@ html{
   transition: 1s;
 }
 .misintereses button:hover .overlay{
+  width: 100%;
+}
+
+.contacto{
+  background-image: url(img/contact_bg.png);
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.contacto h2{
+  font-size: 48px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contacto .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+
+footer{
+  background-color: #252A2E;
+  color: #fff;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  position: relative;
   width: 100%;
 }
