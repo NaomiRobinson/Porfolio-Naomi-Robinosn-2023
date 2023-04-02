@@ -70,7 +70,7 @@ html{
 
 .inicio{
   background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-  url(public/flore.jpg);  /*Poner imagen*/
+  url(/public/gaming.jpg); 
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -79,17 +79,17 @@ html{
 }
 
 .inicio .contenido-banner{
-  padding: 20px;
-  background-color: #30638E;
+  padding: 25px;
+  background-color: #14334dc0;
   max-width: 350px;
   margin: auto;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 60px;
 }
 
 .inicio .contenido-banner img{
   margin-top: 40px;
-  border: 10px solid #D1495B;
+  border: 10px solid #5a1c24;
   display: block;
   width: 80%;
   margin: auto;
@@ -98,7 +98,7 @@ html{
 
 .img-perfil{
   width: 300x;
-  height: 270px;
+  height: 240px;
 }
 
 .inicio .contenido-banner h1{
@@ -249,8 +249,10 @@ html{
   width: 100%;
 }
 
+/*contacto*/
+
 .contacto{
-  background-image: url(im/contact_bg.png);
+  background-image: url(/public/966314.jpg);
   background-color: #1e2326;
   color: #fff;
   padding: 50px 0;
@@ -268,6 +270,7 @@ html{
   margin: auto;
 }
 
+
 footer{
   background-color: #252A2E;
   color: #fff;
@@ -275,4 +278,68 @@ footer{
   text-align: center;
   position: relative;
   width: 100%;
+}
+
+footer .arriba{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #1CB698;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/*----*/
+
+@media screen and (max-width:980px){
+  nav{
+      display: none;
+  }
+  .nav-responsive{
+      display: block;
+  }
+  nav.responsive{
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 75px;
+      background-color: #252A2E;
+      width: 180px;
+  }
+  nav.responsive ul{
+      display: block !important;
+  }
+  nav.responsive ul li{
+      border-bottom: 1px solid #fff;
+      padding: 10px 0;
+  }
+}
+
+@media screen and (max-width:700px){
+  .sobremi .fila{
+    display: block;
+}
+  .sobremi .fila .col{
+    width: fit-content;
+}
+.misintereses .fila{
+  display: block;
+}
+.misintereses .fila .col{
+  width: fit-content;
+}
+
+.contacto .fila{
+  display: block;
+}
+/* .contacto .fila .col{
+  width: 100%;
+} */
+
 }
