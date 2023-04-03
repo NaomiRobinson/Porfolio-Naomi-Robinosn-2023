@@ -67,7 +67,7 @@ html{
 
 
 .inicio{
-  background: linear-gradient(to top, rgba(38, 30, 36, 0.651), rgba(36, 30, 38, 0.705)),
+  background: linear-gradient(to top, rgba(138, 28, 119, 0.651), rgba(35, 4, 46, 0.705)),
   url(/public/Fondo.jpg); 
   background-size: cover;
   height: 100vh;
@@ -246,7 +246,7 @@ height: 260px;
 
 
 .contacto{
-  background: linear-gradient(to top, rgba(38, 30, 36, 0.651), rgba(36, 30, 38, 0.705)),
+  background: linear-gradient(to top, rgba(138, 28, 119, 0.651), rgba(35, 4, 46, 0.705)),
   url(/public/Fondo.jpg);
   color: #fff;
   padding: 50px 0;
