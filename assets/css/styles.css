@@ -5,11 +5,10 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     scroll-behavior: smooth;  
 }
-
-
 
 .encabezado{
   background: #560056;
@@ -124,6 +123,7 @@ height: 260px;
 .img-sobremi{
   width: 50%;
   margin-left: 170px;
+  margin-top: 40px;
 }
 
 
@@ -246,7 +246,7 @@ height: 260px;
 
 
 .contacto{
-  background: linear-gradient(to top, rgba(138, 28, 119, 0.651), rgba(35, 4, 46, 0.705)),
+  background: linear-gradient(to top, rgba(56, 1, 107, 0.753), rgba(18, 0, 82, 0.76)),
   url(./Fondo.jpg); 
   color: #fff;
   padding: 50px 0;
@@ -342,6 +342,5 @@ footer .arriba{
 .contacto .fila{
   display: block;
 }
-
 
 }
