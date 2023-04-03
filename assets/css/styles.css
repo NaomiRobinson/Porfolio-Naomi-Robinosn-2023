@@ -178,8 +178,8 @@ height: 260px;
 
 .img-intereses{
   width: 40%;
-  margin-left: 170px;
-  margin-top: 30px;
+  margin-left: 100px;
+  margin-top: 70px;
 }
 
 .misintereses .contenido-seccion{
@@ -189,6 +189,7 @@ height: 260px;
 
 .misintereses .fila{
   display: flex;
+  
 }
 
 .misintereses .fila .col{
@@ -201,34 +202,29 @@ height: 260px;
   font-family: 'Inconsolata', monospace;
   margin-bottom: 25px;
   margin-left: 210px;
-  margin-top: 60px;
+  margin-top: 10px
   
 }
 
-.misintereses .fila .col p{
-  font-size: 20px;
-  font-family: 'Inconsolata', monospace;
-  margin-bottom: 25px;
- 
-}
 
 .misintereses .fila .col .contenedor-intereses{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-left: 120px;
+  margin-top: 10px;
 }
+
 .misintereses .fila .col .contenedor-intereses .interes{
   width: 100px;
   height: 100px;
   background-color: #723d72c5;
   border-radius: 10px;
-  margin: 0 20px 15px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: .3s;
+    margin: 0 70px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
 }
 
 .misintereses .fila .col .contenedor-intereses .interes:hover{
